@@ -1,0 +1,56 @@
+.modal-news--container{
+    width: 900px;
+    height: 640px;
+    background-color: rgb(7, 42, 64, 0.9);
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+}
+.tittle--news-container{
+    width: 90%;
+    margin: 0 auto
+}
+.tittle--news-container h1{
+    font-size: 33px;
+    color: #eaeef2;
+}
+.info--news{
+    width: 90%;
+    margin: 0 auto;
+}
+.info--news p{
+    font-size: 20px;
+    color: #eaeef2;
+}
+.div--images{
+    width: 90%;
+    margin: 0 auto;
+    height: 180px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.div--images div{
+    width: 100%;
+    height: 100%;
+}
+.div--images div img{
+    width: 100%;
+    height: 100%;
+}
+.div-close--news{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #072A40;
+    cursor: pointer;
+    font-size: 20px;
+    background: #1667b6;
+    color: white;
+    top: -10px;
+    right: -10px;
+}

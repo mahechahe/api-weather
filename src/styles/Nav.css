@@ -1,0 +1,37 @@
+.nav-header--container{
+    width: 100%;
+    height: 80px;
+    background-color: #072A40;
+    opacity: 0.9;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.div-nav--routes{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div-nav--routes a{
+    text-decoration: none;
+}
+.div-nav--routes Button{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.div-nav--logo{
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.div-nav--logo img{
+    width: 240px;
+    height: 80px;
+}

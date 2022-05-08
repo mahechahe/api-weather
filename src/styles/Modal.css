@@ -1,0 +1,50 @@
+.div-container--modal{
+    width: 500px;
+    height: 300px;
+    background: #072A40;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.div-container--modal form{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-around;
+}
+.div-container--modal form label{
+    color: white;
+    font-size: 19px;
+}
+.div-container--modal form input{
+    height: 30px;
+    border: none;
+    border: 2px solid #072A40;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.div-close{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #072A40;
+    cursor: pointer;
+    font-size: 20px;
+    background: #1667b6;
+    color: white;
+    top: -10px;
+    right: -10px;
+}
+.div-close:hover{
+    transform: scale(1.1);
+    color: #072A40;
+    transition: all 0.5s ease-out;
+}
